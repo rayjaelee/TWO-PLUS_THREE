@@ -1,0 +1,58 @@
+/**
+    Name: Raymond Lee
+    Date: 16th APR 2018
+    Section: CSE 154 AN 
+    TA: Daniel Tsu
+
+    This is the style sheet that illustrates 
+    all the details of the quadratic solver page
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+body {
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+main > div {
+    height: 50px;
+}
+
+fieldset {
+    text-align: center;
+    height: 10%;
+}
+
+input {
+    width: 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30pt;
+}
+
+h1 {
+    text-align: center;
+}
